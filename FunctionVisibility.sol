@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.10;
 
-/// @title A cheet-sheet for function visibility in Solidity
+/// @title A cheat-sheet for function visibility in Solidity
 /// @author Warren Dubery
 /// @notice This file demonstrates how the visibility of functions affects how they can be called
 
