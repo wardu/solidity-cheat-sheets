@@ -31,7 +31,7 @@ contract YourGarage {
        Fuel fuel;
     }
     
-    // creating an instance of Car
+    // creating an instance of Car, public keyword automatically creates a getter
     Car public yourCar;
 
     // setting the values in "yourCar" 
@@ -46,6 +46,4 @@ contract YourGarage {
     function changeFuelType (uint _newVal) public {
        yourCar.fuel = Fuel(_newVal);
     }
-
-    
 }
